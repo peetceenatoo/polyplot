@@ -22,6 +22,6 @@ Next features hopefully available soon in this repository:<br/>
     1. Formal proof;<br/>
     2. Extension of the domain of applicability [from positive integers to integers];<br/>
     3. Extension of the domain of the polynomial coefficients;<br/>
-    4. Further extension of the domain of applicability [the k values of x to be evaluated will anyway have to be consecutive].
+    4. Further extension of the domain of applicability.
 
 
