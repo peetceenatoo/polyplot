@@ -1,3 +1,6 @@
+import numpy as np
+import matplotlib.pyplot as plt
+
 def p(x):
     sum = 0
     for k in range(0, degree+1):
@@ -5,14 +8,14 @@ def p(x):
     return sum
 
 degree = int(input("Enter polynomial degree: "))
-toPlot = int(input("Enter the number of points to plot: "))
+highest = int(input("Enter the highest value of x to be considered: "))
+start = 0
 
 coefficients = []
 oldt = [0 for i in range(0, degree)] 
 newt = [0 for i in range(0, degree)]
 constants = []
 
-print()
 print("You are now required to enter coefficients starting from the one which multiplies x^" + str(degree) + "...")
 for i in range(0, degree+1):
     temp = int(input("Enter coefficient n." + str(i+1) + ": "))
@@ -33,12 +36,19 @@ for i in range(0,degree):
 
 plotted = []
 plotted.append(p(0))
-print("The algorythm for x = 0 returns " + str(plotted[-1]))
-for i in range(0, toPlot-1):
+#print("The algorythm for x = 0 returns " + str(plotted[-1]))
+for i in range(0, highest):
     plotted.append(plotted[-1]+newt[0])
-    print("The algorythm for x = " + str(i+1) + " returns " + str(plotted[-1]))
+    #print("The algorythm for x = " + str(i+1) + " returns " + str(plotted[-1]))
     for k in range(0, degree-1):
         newt[k] += newt[k+1]
+np.array(plotted)
+domain = np.linspace(start, highest, highest+1)
+
+plt.scatter(domain, plotted)
+plt.show()
+
+
 
 
 

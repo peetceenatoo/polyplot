@@ -14,6 +14,11 @@ One may want to plot the polynomial for k consecutive integer positive values of
 This algorithm seems to be working, through a phase of initialization with time complexity $O(n^2)$ and a phase of actual evaluation with time complexity $O(k*n)$.
 As k is reasonably much larger than n in - kind of - every realistic context, it just works better.
 
+## Implementation
+
+It is required to install "numpy" and "matplotlib" packages.
+Since the "now it actually plots" commit, they're used to show a scatter plot of the polynomial.
+
 ## Soon
 
 Completely aware that it's still almost useless, I'm working on a formal proof that it actually works, to then generalize its functionality.<br/>
