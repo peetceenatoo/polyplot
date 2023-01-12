@@ -25,8 +25,7 @@ Completely aware that it's still almost useless, I'm working on a formal proof t
 
 Next features hopefully available soon in this repository:<br/>
     1. Formal proof;<br/>
-    2. Extension of the domain of applicability [from positive integers to integers];<br/>
+    2. Extension of the domain;<br/>
     3. Extension of the domain of the polynomial coefficients;<br/>
-    4. Further extension of the domain of applicability.
 
 
