@@ -2,14 +2,14 @@
 
 ## Straightforward method
 
-Let $p(x)$ be a polynomial of grade n with real coefficients. Let k be the discrete number of points which is intended to be plotted.
+Let $p(x)$ be an n-degree polynomial with real coefficients. Let k be the discrete number of points which is intended to be plotted.
 A straightforward approximated evaluation at such points has got time complexity $O(k*n^2)$.
 The approximation is due to the impossibility of representing real numbers.
 
 ## This algorithm
 
 Let's initially consider a restriction of the problem.
-Let $p(x)$ be a polynomial of grade n with integer coefficients.
+Let $p(x)$ be an n-degree polynomial with integer coefficients.
 One may want to plot the polynomial for k consecutive integer positive values of x, or to plot it for some integer positive values such that the largest one is k.
 This algorithm seems to be working, through a phase of initialization with time complexity $O(n^2)$ and a phase of actual evaluation with time complexity $O(k*n)$.
 As k is reasonably much larger than n in - kind of - every realistic context, it just works better.

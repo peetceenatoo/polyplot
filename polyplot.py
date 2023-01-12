@@ -36,10 +36,10 @@ for i in range(0,degree):
 
 plotted = []
 plotted.append(p(0))
-#print("The algorithm for x = 0 returns " + str(plotted[-1]))
+#print("The algorythm for x = 0 returns " + str(plotted[-1]))
 for i in range(0, highest):
     plotted.append(plotted[-1]+newt[0])
-    #print("The algorithm for x = " + str(i+1) + " returns " + str(plotted[-1]))
+    #print("The algorythm for x = " + str(i+1) + " returns " + str(plotted[-1]))
     for k in range(0, degree-1):
         newt[k] += newt[k+1]
 np.array(plotted)
