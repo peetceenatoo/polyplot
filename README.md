@@ -21,7 +21,7 @@ Since the "now it actually plots" commit, they're used to show a scatter plot of
 
 ## Soon
 
-Completely aware that it's still pretty useless, I'm working on a formal proof that it actually works, to then finally generalize its functionality.<br/>
+Completely aware that it's still pretty useless, I'm working on a formal proof that it actually works, to then finally generalize its features.<br/>
 
 Next features hopefully available soon in this repository:<br/>
     1. Formal proof;<br/>
