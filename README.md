@@ -9,10 +9,10 @@ The approximation is due to the impossibility of representing real numbers.
 ## This algorithm
 
 Let's initially consider a restriction of the problem.
-Let $p(x)$ be an n-degree polynomial with integer coefficients.
-One may want to plot the polynomial for k consecutive integer positive values of x, or to plot it for some integer positive values such that the largest one is k.
+Let $p(x)$ be an $n$-degree polynomial with integer coefficients.
+One may want to plot the polynomial for $k$ consecutive integer positive values of $x$, or to plot it for some integer positive values such that the largest one is $k$.
 This algorithm seems to be working, through a phase of initialization with time complexity $O(n^2)$ and a phase of actual evaluation with time complexity $O(k*n)$.
-As k is reasonably much larger than n in - kind of - every realistic context, it just works better.
+As $k$ is reasonably much larger than $n$ in - kind of - every realistic context, it just works better.
 
 ## Implementation
 
@@ -21,7 +21,7 @@ Since the "now it actually plots" commit, they're used to show a scatter plot of
 
 ## Soon
 
-Completely aware that it's still almost useless, I'm working on a formal proof that it actually works, to then generalize its functionality.<br/>
+Completely aware that it's still pretty useless, I'm working on a formal proof that it actually works, to then finally generalize its functionality.<br/>
 
 Next features hopefully available soon in this repository:<br/>
     1. Formal proof;<br/>
