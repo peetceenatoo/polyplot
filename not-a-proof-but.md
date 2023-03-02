@@ -3,8 +3,8 @@
 ## Formal proof incoming
 
 Since I found out about this algorithm, I have been so busy that I could not work on it at all.
-I estimate that I will upload it to the repository by the end of February, and not within the first half of such month.
-Although, until a formal proof is published, I suggest that no one use it.
+I estimate that I won't anyway be capable of uploading it to the repository by the the first half of April 2023.
+Until a formal proof is published, I suggest that no one use it.
 
 ## The idea
 
