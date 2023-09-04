@@ -17,7 +17,7 @@ As $k$ is reasonably much larger than $n$ in - kind of - every realistic context
 ## Implementation
 
 It is required to install "numpy" and "matplotlib" packages.
-Since the "now it actually plots" commit, they're used to show a scatter plot of the polynomial.
+Since the "now it actually plots" commit, a scatter plot of the polynomial is displayed.
 
 ## Soon
 
